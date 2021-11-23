@@ -1,43 +1,60 @@
 .Weather {
-  border: 1px solid #dadde1;
+  border: 2px solid #07565b;
   padding: 16px;
-  border-radius: 4px;
+  border-radius: 5px;
+  background-color: #527f86;
 }
 .Weather a {
   text-decoration: none;
 }
 
 .Weather h1 {
-  font-size: 24px;
+  font-size: 28px;
   font-weight: 100;
   margin: 20px 0 0 0;
-  line-height: 29px;
+  line-height: 35px;
 }
 .Weather ul {
   margin: 0;
   padding: 0;
 }
 .Weather li {
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 100;
-  line-height: 19px;
+  line-height: 25px;
   list-style: none;
 }
 .Weather .temperature {
-  color: rgb(33, 33, 33);
-  font-size: 55px;
-  line-height: 55px;
+  color: #f7ccbd;
+  font-size: 58px;
+  line-height: 54px;
   font-weight: 400;
   margin-left: 5px;
 }
 .Weather .unit {
-  color: rgb(33, 33, 33);
-  font-size: 16px;
+  color: #f7ccbd;
+  font-size: 18px;
   font-weight: 400;
   line-height: 1;
   position: relative;
   top: -34px;
 }
-.WeatherInfo {
-  margin-bottom: 15px;
+.Weather .btn-primary {
+  color: #fff;
+  background-color: #07565b;
+  border-color: #07565b;
+  border-top-color: #07565b;
+  border-right-color: #07565b;
+  border-bottom-color: #07565b;
+  border-left-color: #07565b;
+}
+.Weather .form-control {
+  border: 1px solid #07565b;
+}
+
+.Weather .form-control:focus {
+  color: #07565b;
+  border-color: #07565b;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgb(7 86 91 / 25%);
 }

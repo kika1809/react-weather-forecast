@@ -4,7 +4,7 @@ import WeatherIcon from "./WeatherIcon";
 import WeatherTemperature from "./WeatherTemperature";
 
 
-import "./Weather.css";
+import "./WeatherInfo.css";
 
 
 export default function WeatherInfo(props) {
@@ -17,7 +17,7 @@ export default function WeatherInfo(props) {
           </li>
           <li className="text-capitalize">{props.data.description}</li>
         </ul>
-        <div className="row mt-3">
+        <div className="row mt-4 mb-3">
            <div className="col-6">
             <div className="d-flex align-items-start">
               <div >
